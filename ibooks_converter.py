@@ -10,26 +10,26 @@ old_notes = open(os.path.join(ibook_highlighter_converter, 'ex_notes.txt'))
 old_lines = old_notes.readlines()
 #print(old_lines)
 
-new_notes = ''
+print('This message will be written to a file.')    
 
 def convert_lines(lines):
+
     with open('formatted_notes.md', 'w') as md:
-        sys.stdout = md # Change the standard output to the file we created.
-        print('This message will be written to a file.')
-        #sys.stdout = original_stdout # Reset the standard output to its original value
+        #Create md output file and change the output to it
+        sys.stdout = md
         for line in lines:
             if (line.startswith('August 3')):
-            #datetime.date(%B, " " + %d, ", " + %Y)
+            #change to datetime.date(%B, " " + %d, ", " + %Y)
                 pass
             #elif line in text == Chaper + number format:
                 #add line (unless it already exists) & remove the page #
             #maybe not neccessary elif line == '\n':
                 #print('\n')
             else:
-                md.write(line)
+                md.write('### ' + line)
                 #(+add page number from the line above if possible)
             #see if I need to do anything to account
-            '\n'
+        #Add line that drives people back to my website/twitter/youtube (my CTA)
         return md
 
 print(convert_lines(old_lines))
