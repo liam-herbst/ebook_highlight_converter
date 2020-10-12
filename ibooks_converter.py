@@ -1,5 +1,5 @@
 #This is a script for converting the ugly iBooks notes exports into a clean Markdown file
-# *** Turn these into an HTML file (could md also work?) and post them to a public website (similar to the notes
+# *** Turn these into angi HTML file (could md also work?) and post them to a public website (similar to the notes
 # app that has the spaced repitition system) and email a weblink to the person who emailed me
 # also build up a massive email list and send out monthly upates
 # see if there's a way to integrate with my existing notion page / profile (ZK)
