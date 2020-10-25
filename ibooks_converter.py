@@ -29,6 +29,7 @@ def convert_lines(lines):
                 counter += 1
 
             ## Removes duplicate lines 
+            # https://www.geeksforgeeks.org/python-ways-to-remove-duplicates-from-list/
 
             # Checks to see if the line is a date and subsequently eliminates dates
             try:
