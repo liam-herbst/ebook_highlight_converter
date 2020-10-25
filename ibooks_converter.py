@@ -10,7 +10,8 @@ ibook_highlighter_converter = os.path.dirname(os.path.abspath(__file__))
 old_notes = open(os.path.join(ibook_highlighter_converter, 'ex_notes.txt'))
 old_lines = old_notes.readlines()
 
-# Delete the page number (denoted by p. ) from the end of the chapter title line and appends it to the end of the next line
+# Delete the page number (denoted by ", p. ") from the end of the chapter title line and appends it to the end of the next line
+#a Not all chapter titles have this so I'll need to account for that (it shoudl be accounted for anyway)
 ## So chapter titles become duplicates and notes have accurate page numbers 
 
 # Identify which lines are duplicates and switch them to h2
@@ -30,6 +31,7 @@ def convert_lines(lines):
 
             ## Removes duplicate lines 
             # https://www.geeksforgeeks.org/python-ways-to-remove-duplicates-from-list/
+            # https://careerkarma.com/blog/python-remove-duplicates-from-list/#:~:text=There%20are%20a%20couple%20of,you%20have%20into%20a%20set.
 
             # Checks to see if the line is a date and subsequently eliminates dates
             try:
