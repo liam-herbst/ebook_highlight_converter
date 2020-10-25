@@ -1,5 +1,5 @@
-#This is a script for converting the ugly iBooks notes exports into a clean Markdown file
-# *** Turn these into angi HTML file (could md also work?) and post them to a public website (similar to the notes
+#This is a script for converting the ugly iBooks notes exports into a clean HTML file
+# *** Turn these into angi HTML file and post them to a public website (similar to the notes
 # app that has the spaced repitition system) and email a weblink to the person who emailed me
 # also build up a massive email list and send out monthly upates
 # see if there's a way to integrate with my existing notion page / profile (ZK)
@@ -18,9 +18,9 @@ print('This message will be written to a file.')
 
 def convert_lines(lines):
 
-    with open('formatted_notes.md', 'w') as md:
+    with open('formatted_notes.html', 'w') as fn:
         #Create md output file and change the output to it
-        sys.stdout = md
+        sys.stdout = fn
         for line in lines:
             if (line.startswith('August 3')):
             #change to datetime.date(%B, " " + %d, ", " + %Y)
@@ -30,7 +30,7 @@ def convert_lines(lines):
             #maybe not neccessary elif line == '\n':
                 #print('\n')
             else:
-                md.write('### ' + line)
+                fn.write("<h2>" + line + "</h2>")
                 #(+add page number from the line above if possible)
             #see if I need to do anything to account
         #Add line that drives people back to my website/twitter/youtube (my CTA)
