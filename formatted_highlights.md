@@ -1,9 +1,9 @@
-##  Foreword by Adam Grant
+**Foreword by Adam Grant**
 - to be a great manager, you have to be a great coach
 - Having worked for a few years with Google’s pioneering people analytics team, it became obvious to me that almost everything great in the
 - company happened in teams. That was my pitch in the talk: start treating teams, not individuals, as the fundamental building block of the organization
 - Excellent teams at Google had psychological safety (people knew that if they took risks, their manager would have their back). The teams had clear goals, each role was meaningful, and members were reliable and confident that the team’s mission would make a difference
-##  Chapter 1: The Caddie and the CEO
+**Chapter 1: The Caddie and the CEO**
 - He appreciated that each person had a different story and background
 - he made sure the team was communicating, that tensions and disagreements were brought to the surface and discussed, so that when the big decisions were made, everyone was on board, whether they agreed or not
 - Bill Campbell was known for many things, but perhaps his most notable characteristic, his signature, was the hug
@@ -14,7 +14,7 @@
 - Coaching is no longer a specialty; you cannot be a good manager without being a good coach
 - create a climate of communication, respect, feedback, and trust
 - swearing in the workplace enhances morale
-##  Chapter 2: Your Title Makes You a Manager. Your People Make You a Leader.
+**Chapter 2: Your Title Makes You a Manager. Your People Make You a Leader.**
 - People are the foundation of any company’s success. The primary job of each manager is to help people be more effective in their job and to grow and develop. We have great people who want to do well, are capable of doing great things, and come to work fired up to do them. Great people flourish in an environment that liberates and amplifies that energy. Managers create this environment through support, respect, and trust. Support means giving people the tools, information, training, and coaching they need to succeed. It means continuous effort to develop people’s skills. Great managers help people excel and grow. Respect means understanding people’s unique career goals and being sensitive to their life choices. It means helping people achieve these career goals in a way that’s consistent with the needs of the company. Trust means freeing people to do their jobs and to make decisions. It means knowing people want to do well and believing that they will.
 - THE THRONE BEHIND THE ROUND TABLE THE MANAGER’S JOB IS TO RUN A DECISION-MAKING PROCESS THAT ENSURES ALL PERSPECTIVES GET HEARD AND CONSIDERED, AND, IF NECESSARY, TO BREAK TIES AND MAKE THE DECISION
 - LEAD BASED ON FIRST PRINCIPLES DEFINE THE “FIRST PRINCIPLES” FOR THE SITUATION, THE IMMUTABLE TRUTHS THAT ARE THE FOUNDATION FOR THE COMPANY OR PRODUCT, AND HELP GUIDE THE DECISION FROM THOSE PRINCIPLES.
@@ -76,7 +76,7 @@
 - A company that is honest with its board can be honest with itself, too; people learn that not only is it okay to frankly share bad news, it’s expected
 - we would not include the highlights and lowlights in the packet of information that we sent to board members ahead of the meeting
 - bad board member looks like: “Someone who just walks in and wants to be the smartest guy in the room and talks too much.”
-##  Chapter 3: Build an Envelope of Trust
+**Chapter 3: Build an Envelope of Trust**
 - ONLY COACH THE COACHABLE THE TRAITS THAT MAKE A PERSON COACHABLE INCLUDE HONESTY AND HUMILITY, THE WILLINGNESS TO PERSEVERE AND WORK HARD, AND A CONSTANT OPENNESS TO LEARNING
 - PRACTICE FREE-FORM LISTENING LISTEN TO PEOPLE WITH YOUR FULL AND UNDIVIDED ATTENTION—DON’T THINK AHEAD TO WHAT YOU’RE GOING TO SAY NEXT—AND ASK QUESTIONS TO GET TO THE REAL ISSUE
 - NO GAP BETWEEN STATEMENTS AND FACT BE RELENTLESSLY HONEST AND CANDID, COUPLE NEGATIVE FEEDBACK WITH CARING, GIVE FEEDBACK AS SOON AS POSSIBLE, AND IF THE FEEDBACK IS NEGATIVE, DELIVER IT PRIVATELY
@@ -98,7 +98,7 @@
 - be the person who gives energy, not one who takes it away
 - trust my instincts
 - People prefer leaders who are different because it makes leadership seem more attainable
-##  Chapter 4: Team First
+**Chapter 4: Team First**
 - WORK THE TEAM, THEN THE PROBLEM WHEN FACED WITH A PROBLEM OR OPPORTUNITY, THE FIRST STEP IS TO ENSURE THE RIGHT TEAM IS IN PLACE AND WORKING ON IT.
 - PICK THE RIGHT PLAYERS THE TOP CHARACTERISTICS TO LOOK FOR ARE SMARTS AND HEARTS: THE ABILITY TO LEARN FAST, A WILLINGNESS TO WORK HARD, INTEGRITY, GRIT, EMPATHY, AND A TEAM-FIRST ATTITUDE
 - PAIR PEOPLE PEER RELATIONSHIPS ARE CRITICAL AND OFTEN OVERLOOKED, SO SEEK OPPORTUNITIES TO PAIR PEOPLE UP ON PROJECTS OR DECISIONS
@@ -125,7 +125,7 @@
 - Identifying areas of tension is especially important for WAIm because clubs are like a house of cards — easily destructed through conflicts/drama/disinterest
 - LISTEN, OBSERVE, AND FILL THE COMMUNICATION AND UNDERSTANDING GAPS BETWEEN PEOPLE
 - led off the meetings by talking about personal stuff
-##  Chapter 5: The Power of Love
+**Chapter 5: The Power of Love**
 - THE PERCUSSIVE CLAP CHEER DEMONSTRABLY FOR PEOPLE AND THEIR SUCCESSES.
 - Specifically when a new product is launched / prototype built.
 - ALWAYS BUILD COMMUNITIES BUILD COMMUNITIES INSIDE AND OUTSIDE OF WORK. A PLACE IS MUCH STRONGER WHEN PEOPLE ARE CONNECTED
@@ -142,7 +142,7 @@
 - love the founders, and ensure they stay engaged in a meaningful way regardless of their operating role
 - love
 - Have love for the people I’m working with
-##  Chapter 6: The Yardstick
+**Chapter 6: The Yardstick**
 - great products and the teams that create them are at the core of a great company. Everything else should be in service to that core
 - there are things we all care about as people—love, family, money, attention, power, meaning, purpose—that are factors in any business situation. That to create effective teams, you need to understand and pay attention to these human values.
 - Understand what motivates someone and find out to to provide them with it

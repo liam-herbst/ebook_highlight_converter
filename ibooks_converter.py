@@ -1,8 +1,9 @@
 # --------------------------------------------------
-# STEP 1: PASTE YOUR NOTES INTO THE 'UNFORMATTED_NOTES.TXT' FILE
-# STEP 2: RUN THIS SCRIPT
-# STEP 3: GO TO 'FORMATTED_NOTES.MD AND SAVE YOUR FILE
-# STEP 4: IMPORT YOUR FILE INTO NOTION
+# STEP 1: PASTE YOUR NOTES INTO THE 'UNFORMATTED_HIGHLIGHTS.TXT' FILE
+# STEP 2: SAVE THE 'UNFORMATTED_HIGHLIGHTS.TXT' FILE
+# STEP 3: RUN THIS SCRIPT
+# STEP 4: GO TO 'FORMATTED_HIGHLIGHTS.MD AND SAVE YOUR FILE
+# STEP 5: IMPORT YOUR FILE INTO NOTION
 # --------------------------------------------------
 
 ### Import modules and files ###
@@ -12,7 +13,7 @@ from collections import Counter
 import sys
 import os
 
-original_notes = 'unformatted_notes.txt'
+original_notes = 'unformatted_highlights.txt'
 print(original_notes)
 
 with open(original_notes, 'r') as original_notes:
@@ -92,10 +93,10 @@ def format_lines(formatted_page_numbers):
     formatted_lines = []
     for line in formatted_page_numbers:
         if formatted_page_numbers.count(line) > 1:
-            line = '## ' + " " + line
+            line = '<h2>' + line + '</h2>'
             formatted_lines.append(line)
         else:
-            line = '- ' + line
+            line = '<p>- ' + line + '</p>'
             formatted_lines.append(line)
     return formatted_lines
 
@@ -126,5 +127,5 @@ print(removed_chapter_duplicates)
 
 ### Export to HTML file ###
 
-with open('formatted_notes.md', 'w') as fn:
+with open('formatted_highlights.txt', 'w') as fn:
     fn.write('\n'.join(removed_chapter_duplicates))
