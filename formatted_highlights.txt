@@ -1,0 +1,679 @@
+<p>- Foreword
+</p>
+<p>- Naval is one of the smartest people I’ve ever met, and he’s also one of the most courageous. Not in the “run into the fire without thinking twice” sense, but in the “think twice and then tell everyone they’re focusing on the wrong fire” sense.
+</p>
+<p>- There are lots of miserable “successful” people out there. Be careful about modeling those, as you will get all the bathwater with the baby.
+</p>
+<p>- he: Questions nearly everything Can think from first principles Tests things well Is good at not fooling himself Changes his mind regularly Laughs a lot Thinks holistically Thinks long-term And… doesn’t take himself too goddamn seriously.
+</p>
+<p>- Building Wealth
+</p>
+<p>- Getting rich is about knowing what to do, who to do it with, and when to do it.
+</p>
+<p>- If you don’t know yet what you should work on, the most important thing is to figure it out. You should not grind at a lot of hard work until you figure out what you should be working on.
+</p>
+<p>- Seek wealth, not money or status. Wealth is having assets that earn while you sleep.
+</p>
+<p>- You will get rich by giving society what it wants but does not yet know how to get. At scale.
+</p>
+<p>- Pick an industry where you can play long-term games with long-term people.
+</p>
+<p>- All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.
+</p>
+<p>- Learn to sell. Learn to build. If you can do both, you will be unstoppable.
+</p>
+<p>- Right now for me: Coding = Building Youtube video creation = selling Find an industry where I can do both of these
+</p>
+<p>- Arm yourself with specific knowledge,
+</p>
+<p>- Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.
+</p>
+<p>- Specific knowledge is taught through apprentceships
+</p>
+<p>- take business risks under your own name. Society will reward you with responsibility, equity, and leverage.
+</p>
+<p>- Fortunes require leverage. Business leverage comes from capital, people, and products with no marginal cost of replication (code and media).
+</p>
+<p>- again, coding and producing media are my thing! Need to play long term games with long term people in those two fields
+</p>
+<p>- Capital and labor are permissioned leverage. Everyone is chasing capital, but someone has to give it to you. Everyone is trying to lead, but someone has to follow you.
+</p>
+<p>- Code and media are permissionless leverage. They’re the leverage behind the newly rich. You can create software and media that works for you while you sleep.
+</p>
+<p>- This is fascinating... Think about how I can continue doubling down on code and media
+</p>
+<p>- Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers.
+</p>
+<p>- Doing is faster than watching.
+</p>
+<p>- be too busy to “do coffee” while still keeping an uncluttered calendar.
+</p>
+<p>- Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.
+</p>
+<p>- Consider my hourly rate to be $100. Even $100 under a TVM calculation in the long term is very little for my expected net worth.
+</p>
+<p>- Become the best in the world at what you do. Keep redefining what you do until this is true.
+</p>
+<p>- Only strive to be #1
+</p>
+<p>- Apply specific knowledge, with leverage,
+</p>
+<p>- I.e. Code and create media on my area of expertise
+</p>
+<p>- Productize
+</p>
+<p>- “Productize” and “yourself.” “Yourself” has uniqueness. “Productize” has leverage. “Yourself” has accountability. “Productize” has specific knowledge. “Yourself” also has specific knowledge in there.
+</p>
+<p>- Wealth is assets that earn while you sleep.
+</p>
+<p>- Technology democratizes consumption but consolidates production. The best person in the world at anything gets to do it for everyone.
+</p>
+<p>- technology is the set of things, as Alan Kay said, that don’t quite work yet [correction: Danny Hillis]. Once something works, it’s no longer technology.
+</p>
+<p>- to figure out how to scale it because if you only build one, that’s not enough. You’ve got to build thousands, or hundreds of thousands, or millions, or billions of them
+</p>
+<p>- Specific knowledge cannot be taught, but it can be learned.
+</p>
+<p>- Most of life is a search for who and what needs you the most.
+</p>
+<p>- I love to read, and I love technology. I learn very quickly, and I get bored fast.
+</p>
+<p>- These traits are god for being a VC/Angel... these are also traits that I possess
+</p>
+<p>- Science applied is the engine of humanity.
+</p>
+<p>- this stuff feels like play to me, but it looks like work to others.
+</p>
+<p>- focus on the thing that you are really into.
+</p>
+<p>- Specific knowledge is found much more by pursuing your innate talents, your genuine curiosity, and your passion.
+</p>
+<p>- everyone is the best at something—being themselves.
+</p>
+<p>- It’s much more important today to be able to become an expert in a brand-new field in nine to twelve months than to have studied the “right” thing a long time ago. You really care about having studied the foundations, so you’re not scared of any book. If you go to the library and there’s a book you cannot understand, you have to dig down and say, “What is the foundation required for me to learn this?” Foundations are super important. [74]
+</p>
+<p>- Foundations are key. It’s much better to be at 9/ 10 or 10/ 10 on foundations than to try and get super deep into things.
+</p>
+<p>- Play Long-Term Games with Long-Term People
+</p>
+<p>- Your reputation will literally end up being thousands or tens of thousands of times more valuable than somebody else who was very talented but is not keeping the compound interest in reputation going.
+</p>
+<p>- Intentions don’t matter. Actions do.
+</p>
+<p>- you’re trying to do is find the thing you can go all-in on to earn compound interest.
+</p>
+<p>- When you’re studying something, like a geography or history class, and you realize you are never going to use the information, drop the class.
+</p>
+<p>- when you find the 1 percent of your discipline which will not be wasted, which you’ll be able to invest in for the rest of your life and has meaning to you—go all-in and forget about the rest. [10]
+</p>
+<p>- we’re still socially hardwired to not fail in public under our own names. The people who have the ability to fail in public under their own names actually gain a lot of power.
+</p>
+<p>- I need to create an opportunity where u can fall in public.... truly fail not N36 fail
+</p>
+<p>- people will forgive failures as long as you were honest and made a high-integrity effort.
+</p>
+<p>- There’s not really that much to fear in terms of failure, and so people should take on a lot more accountability than they do.
+</p>
+<p>- Build or Buy Equity in a Business
+</p>
+<p>- If you don’t own a piece of a business, you don’t have a path towards financial freedom.
+</p>
+<p>- They’re going to pay you the bare minimum they have to, to get you to do their job.
+</p>
+<p>- Owning equity in a company basically means you own the upside.
+</p>
+<p>- Following your genuine intellectual curiosity is a better foundation for a career than following whatever is making money right now. [11]
+</p>
+<p>- The year I generated the most wealth for myself was actually the year I worked the least hard and cared the least about the future.
+</p>
+<p>- The less you want something, the less you’re thinking about it, the less you’re obsessing over it, the more you’re going to do it in a natural way.
+</p>
+<p>- this is the worst form of leverage that you could possibly use. Managing other people is incredibly messy. It requires tremendous leadership skills. You’re
+</p>
+<p>- It scales very, very well. If you get good at managing capital, you can manage more and more capital much more easily than you can manage more and more people.
+</p>
+<p>- final form of leverage is brand new—the most democratic form. It is: “products with no marginal cost of replication.” This includes books, media, movies, and code. Code is probably the most powerful form of permissionless leverage.
+</p>
+<p>- Forget rich versus poor, white-collar versus blue. It’s now leveraged versus un-leveraged.
+</p>
+<p>- the new generation’s fortunes are all made through code or media.
+</p>
+<p>- What could be next? AI? How can I ride this out?
+</p>
+<p>- optimize for independence rather than pay.
+</p>
+<p>- you want to be as leveraged as possible so you have a huge impact without as much time or physical effort.
+</p>
+<p>- A leveraged worker can out-produce a non-leveraged worker by a factor of one thousand or ten thousand.
+</p>
+<p>- judgment is far more important than how much time they put in or how hard they work.
+</p>
+<p>- Inputs don’t match outputs,
+</p>
+<p>- Keep this in mind as I plan my days Only as in events WITH SUPER HIGH LEVERAGE because I can then work a 10-20-100+ hour day in just a few hours
+</p>
+<p>- you’re not writing things down to make it look like you did work.
+</p>
+<p>- Something I do often...
+</p>
+<p>- Knowledge workers function like athletes—train and sprint, then rest and reassess.
+</p>
+<p>- In customer service, unfortunately, inputs and outputs relate relatively close to each other, and the hours you put in matter.
+</p>
+<p>- The higher the creativity component of a profession, the more likely it is to have disconnected inputs and outputs.
+</p>
+<p>- Learn to sell, learn to build. If you can do both, you will be unstoppable.
+</p>
+<p>- The one thing you have to avoid is the risk of ruin.
+</p>
+<p>- Stay out of things that could cause you to lose all of your capital, all of your savings.
+</p>
+<p>- take rationally optimistic bets with big upsides.
+</p>
+<p>- Judgment—especially demonstrated judgment, with high accountability and a clear track record—is critical.
+</p>
+<p>- We waste our time with short-term thinking and busywork. Warren Buffett spends a year deciding and a day acting. That act lasts decades.
+</p>
+<p>- Being at the extreme in your art is very important in the age of leverage.
+</p>
+<p>- It’s more about consistently creating wealth by creating businesses, creating opportunities, and creating investments. It hasn’t been a giant one-off thing.
+</p>
+<p>- Value your time at an hourly rate, and ruthlessly spend to save time at that rate. You will never be worth more than you think you’re worth.
+</p>
+<p>- If you can hire someone to do it for less than your hourly rate, hire them.
+</p>
+<p>- Humans are wired to feel what the other person deep down inside feels.
+</p>
+<p>- Optimists actually do better in the long run.
+</p>
+<p>- Wealth creation is an evolutionarily recent positive-sum game. Status is an old zero-sum game. Those attacking wealth creation are often just seeking status.
+</p>
+<p>- There are basically three really big decisions you make in your early life: where you live, who you’re with, and what you do.
+</p>
+<p>- Choosing what city to live in can almost completely determine the trajectory of your life, but we spend so little time trying to figure out what city to live in.
+</p>
+<p>- If you’re going to live in a city for ten years, if you’re going to be in a job for five years, if you’re in a relationship for a decade, you should be spending one to two years deciding these things.
+</p>
+<p>- You have to say no to everything and free up your time so you can solve the important problems.
+</p>
+<p>- Figure out what you’re good at, and start helping other people with it.
+</p>
+<p>- where did we come up with this idea the correct logical thing to do is for everybody to work for somebody else?
+</p>
+<p>- I would rather be a failed entrepreneur than someone who never tried. Because even a failed entrepreneur has the skill set to make it on their own.
+</p>
+<p>- Any end goal will just lead to another goal, lead to another goal.
+</p>
+<p>- history remembers the artists.
+</p>
+<p>- I’m always “working.” It looks like work to others, but it feels like play to me. And that’s how I know no one can compete with me on it.
+</p>
+<p>- The winners of any game are the people who are so addicted they continue playing even as the marginal utility from winning declines.
+</p>
+<p>- For someone who is early in their career (and maybe even later), the single most important thing about a company is the alumni network you’re going to build.
+</p>
+<p>- Bookmark - How to Get Lucky > Page 83 · Location 777
+</p>
+<p>- Make a note here about the kinds of luck (combine with the Marc andreessen post)
+</p>
+<p>- Ways to get lucky: • Hope luck finds you. • Hustle until you stumble into it. • Prepare the mind and be sensitive to chances others miss. • Become the best at what you do. Refine what you do until this is true. Opportunity will seek you out. Luck becomes your destiny.
+</p>
+<p>- One of the things I think is important to make money is having a reputation that makes people do deals through you.
+</p>
+<p>- “In a long-term game, it seems that everybody is making each other rich. And in a short-term game, it seems like everybody is making themselves rich.”
+</p>
+<p>- business networking is a complete waste of time.
+</p>
+<p>- if you’re building something interesting, you will always have more people who will want to know you.
+</p>
+<p>- Build things > network
+</p>
+<p>- If someone is talking a lot about how honest they are, they’re probably dishonest.
+</p>
+<p>- You cannot hide anything from yourself.
+</p>
+<p>- great people have great outcomes. You just have to be patient.
+</p>
+<p>- It never happens in the timescale you want, or they want, but it does happen.
+</p>
+<p>- Your real résumé is just a catalog of all your suffering. If I ask you to describe your real life to yourself, and you look back from your deathbed at the interesting things you’ve done, it’s all going to be around the sacrifices you made, the hard things you did.
+</p>
+<p>- Building Judgment
+</p>
+<p>- Hard work is really overrated.
+</p>
+<p>- Judgment is underrated.
+</p>
+<p>- My definition of wisdom is knowing the long-term consequences of your actions. Wisdom applied to external problems is judgment.
+</p>
+<p>- Picking the direction you’re heading in for every decision is far, far more important than how much force you apply.
+</p>
+<p>- The really smart thinkers are clear thinkers. They understand the basics at a very, very fundamental level.
+</p>
+<p>- understand the basics really well than memorize all kinds of complicated concepts I can’t stitch together and can’t rederive from the basics. If you can’t rederive concepts from the basics as you need them, you’re lost. You’re just memorizing.
+</p>
+<p>- To see the truth, you have to get your ego out of the way because your ego doesn’t want to face the truth.
+</p>
+<p>- What we wish to be true clouds our perception of what is true.
+</p>
+<p>- It’s actually really important to have empty space. If you don’t have a day or two every week in your calendar where you’re not always in meetings, and you’re not always busy, then you’re not going to be able to think.
+</p>
+<p>- It’s only after you’re bored you have the great ideas.
+</p>
+<p>- Any belief you took in a package (ex. Democrat, Catholic, American) is suspect and should be re-evaluated from base principles.
+</p>
+<p>- Facebook redesigns. Twitter redesigns. Personalities, careers, and teams also need redesigns. There are no permanent solutions in a dynamic system.
+</p>
+<p>- Charisma is the ability to project confidence and love at the same time.
+</p>
+<p>- someone who makes decisions right 80 percent of the time instead of 70 percent of the time will be valued and compensated in the market hundreds of times more.
+</p>
+<p>- Decision-making is everything.
+</p>
+<p>- The more you know, the less you diversify.
+</p>
+<p>- The best mental models I have found came through evolution, game theory, and Charlie Munger.
+</p>
+<p>- Charlie Munger is Warren Buffett’s partner. Very good investor. He has tons and tons of great mental models. Author and trader Nassim Taleb has great mental models. Benjamin Franklin had great mental models.
+</p>
+<p>- Mental models are really just compact ways for you to recall your own knowledge.
+</p>
+<p>- The power or ZK is constantly building mental models
+</p>
+<p>- I don’t believe I have the ability to say what is going to work. Rather, I try to eliminate what’s not going to work. I think being successful is just about not making mistakes.
+</p>
+<p>- we are fundamentally ignorant and very, very bad at predicting the future.
+</p>
+<p>- I don’t think you can be successful in business or even navigate most of our modern capitalist society without an extremely good understanding of supply-and-demand, labor-versus-capital, game theory,
+</p>
+<p>- It’s worth reading a microeconomics textbook from start to finish.
+</p>
+<p>- it’s more important to understand the principles of calculus—where you’re measuring the change in small discrete or small continuous events.
+</p>
+<p>- For you to believe something is true, it should have predictive power, and it must be falsifiable.
+</p>
+<p>- macroeconomics, because it doesn’t make falsifiable predictions (which is the hallmark of science), has become corrupted.
+</p>
+<p>- If you can’t decide, the answer is no.
+</p>
+<p>- You’re biologically not built to realize how many choices there are.
+</p>
+<p>- If you’re evenly split on a difficult decision, take the path more painful in the short term.
+</p>
+<p>- If I am reading a book and I’m getting confused, it is just like working out and the muscle getting sore or tired, except now my brain is being overwhelmed. In the long run I’m getting smarter because I’m absorbing new concepts from working at the limit or edge of my capability.
+</p>
+<p>- Reading science, math, and philosophy one hour per day will likely put you at the upper echelon of human success within seven years.
+</p>
+<p>- The means of learning are abundant—it’s the desire to learn that is scarce.
+</p>
+<p>- Read what you love until you love to read.
+</p>
+<p>- “I don’t want to read everything. I just want to read the 100 great books over and over again.”
+</p>
+<p>- I probably read one to two hours a day. That puts me in the top .00001 percent. I think that alone accounts for any material success I’ve had in my life and any intelligence I might have.
+</p>
+<p>- I’ll start at the beginning, but I’ll move fast. If it’s not interesting, I’ll just start flipping ahead, skimming, or speed reading. If it doesn’t grab my attention within the first chapter in a meaningful, positive way, I’ll either drop the book or skip ahead a few chapters.
+</p>
+<p>- If they wrote it to make money, don’t read it.
+</p>
+<p>- What practices do you follow to internalize/ organize information from reading books? Explain what you learned to someone else. Teaching forces learning.
+</p>
+<p>- Put truth above social approval.
+</p>
+<p>- Study logic and math, because once you’ve mastered them, you won’t fear any book.
+</p>
+<p>- When you’re reading a book and you’re confused, that confusion is similar to the pain you get in the gym when you’re working out. But you’re building mental muscles instead of physical muscles.
+</p>
+<p>- If you’re a perpetual learning machine, you will never be out of options for how to make money.
+</p>
+<p>- This is the goal. I am striving to create a career where I can be a perpetual learner while working limited hours per week and making a great income
+</p>
+<p>- To think clearly, understand the basics. If you’re memorizing advanced concepts without being able to re-derive them as needed, you’re lost.
+</p>
+<p>- Twitter has made me a worse reader but a much better writer.
+</p>
+<p>- Likely similar to how my ZK has made me a better writer (maybe I should focus on tightening it up though?
+</p>
+<p>- Any book that survived for two thousand years has been filtered through many people. The general principles are more likely to be correct.
+</p>
+<p>- Learning Happiness
+</p>
+<p>- Don’t take yourself so seriously. You’re just a monkey with a plan.
+</p>
+<p>- means
+</p>
+<p>- I believe happiness is really a default state. Happiness is there when you remove the sense of something missing in your life.
+</p>
+<p>- Happiness is the state when nothing is missing. When nothing is missing, your mind shuts down and stops running into the past or future to regret something or to plan something.
+</p>
+<p>- every positive thought essentially holds within it a negative thought.
+</p>
+<p>- If I say I’m happy, that means I was sad at some point. If I say he’s attractive, then somebody else is unattractive.
+</p>
+<p>- which is why a lot of greatness in life comes out of suffering. You have to view the negative before you can aspire to and appreciate the positive.
+</p>
+<p>- To me, happiness is not about positive thoughts. It’s not about negative thoughts. It’s about the absence of desire, especially the absence of desire for external things.
+</p>
+<p>- You’re born, you have a whole set of sensory experiences and stimulations (lights, colors, and sounds), and then you die. How you choose to interpret them is up to you—you have that choice.
+</p>
+<p>- We think of ourselves as fixed and the world as malleable, but it’s really we who are malleable and the world is largely fixed.
+</p>
+<p>- Real happiness only comes as a side-effect of peace. Most of it is going to come from acceptance, not from changing your external environment.
+</p>
+<p>- You can very slowly but steadily and methodically improve your happiness baseline, just like you can improve your fitness.
+</p>
+<p>- You can literally destroy your happiness if you spend all of your time living in delusions of the future.
+</p>
+<p>- It’s always the next thing, then the next thing, the next thing after that, then the next thing after that creating this pervasive anxiety.
+</p>
+<p>- Looking outside yourself for anything is the fundamental delusion.
+</p>
+<p>- The idea you’re going to change something in the outside world, and that is going to bring you the peace, everlasting joy, and happiness you deserve, is a fundamental delusion we all suffer from,
+</p>
+<p>- When you’re young and healthy, you can do more. By doing more, you’re actually taking on more and more desires. You don’t realize this is slowly destroying your happiness.
+</p>
+<p>- By the time people realize they have enough money, they’ve lost their time and their health.
+</p>
+<p>- the real winners are the ones who step out of the game entirely, who don’t even play the game, who rise above it. Those are the people who have such internal mental and self-control and self-awareness, they need nothing from anybody else.
+</p>
+<p>- You can get almost anything you want out of life, as long as it’s one thing and you want it far more than anything else.
+</p>
+<p>- Peace is happiness at rest, and happiness is peace in motion.
+</p>
+<p>- The only way to actually get peace on the inside is by giving up this idea of problems.
+</p>
+<p>- I’m trying to get rid of is the word “should.” Whenever the word “should” creeps up in your mind, it’s guilt or social programming. Doing something because you “should” basically means you don’t actually want to do it. It’s just making you miserable, so I’m trying to eliminate as many “shoulds” from my life as possible.
+</p>
+<p>- you’re no better off with jealousy. You’re unhappier, and the person you’re jealous of is still successful or good-looking or whatever they are.
+</p>
+<p>- If you’re not willing to do a wholesale, 24/ 7, 100 percent swap with who that person is, then there is no point in being jealous.
+</p>
+<p>- When working, surround yourself with people more successful than you.
+</p>
+<p>- When playing, surround yourself with people happier than you.
+</p>
+<p>- you have to go through your life replacing your thoughtless bad habits with good ones,
+</p>
+<p>- you are a combination of your habits and the people who you spend the most time with.
+</p>
+<p>- The people who are the most happy and optimistic choose the right five chimps.
+</p>
+<p>- I’m not interested in anything unsustainable or even hard to sustain, including difficult relationships.
+</p>
+<p>- This is an interesting thought for habit building. I should only do things that are easy to sustain (things that I am excited to sustain)
+</p>
+<p>- If you can’t see yourself working with someone for life, don’t work with them for a day.
+</p>
+<p>- When we get something, we assume the world owes it to us. If you’re present, you’ll realize how many gifts and how much abundance there is around us at all times. That’s all you really need to do. I’m here now, and I have all these incredible things at my disposal.
+</p>
+<p>- If I catch myself judging somebody, I can stop myself and say, “What’s the positive interpretation of this?”
+</p>
+<p>- Every time you catch yourself desiring something, say, “Is it so important to me I’ll be unhappy unless this goes my way?”
+</p>
+<p>- Tell your friends you’re a happy person. Then, you’ll be forced to conform to it.
+</p>
+<p>- Recover time and happiness by minimizing your use of these three smartphone apps: phone, calendar, and alarm clock.
+</p>
+<p>- Caught in a funk? Use meditation, music, and exercise to reset your mood. Then choose a new path to commit emotional energy for rest of day.
+</p>
+<p>- No exceptions—all screen activities linked to less happiness, all non-screen activities linked to more happiness.
+</p>
+<p>- A personal metric: how much of the day is spent doing things out of obligation rather than out of interest?
+</p>
+<p>- Pick one big desire in your life at any given time to give yourself purpose and motivation.
+</p>
+<p>- mentally ask myself, “What is the positive of this situation?”
+</p>
+<p>- When I feel like complaining
+</p>
+<p>- Your life is a firefly blink in a night.
+</p>
+<p>- Saving Yourself
+</p>
+<p>- you have to take responsibility.
+</p>
+<p>- you don’t need to do anything. All you should do is what you want to do.
+</p>
+<p>- I never met my greatest mentor. I wanted so much to be like him. But his message was the opposite: Be yourself, with passionate intensity.
+</p>
+<p>- No one in the world is going to beat you at being you.
+</p>
+<p>- To make an original contribution, you have to be irrationally obsessed with something.
+</p>
+<p>- We’re probably evolved to use all of our five senses equally as opposed to favoring the visual cortex.
+</p>
+<p>- We’re not meant to walk in shoes.
+</p>
+<p>- We’re meant to have some cold exposure. It kickstarts your immune system.
+</p>
+<p>- We evolved for scarcity but live in abundance. There’s a constant struggle to say no when your genes always want to say yes.
+</p>
+<p>- If bacteria won’t eat it, should you?
+</p>
+<p>- Ditch the extremists and any food invented in the last few hundred years.
+</p>
+<p>- World’s simplest diet: The more processed the food, the less one should consume.
+</p>
+<p>- “I don’t have time” is just another way of saying “It’s not a priority.”
+</p>
+<p>- The best workout for you is one you’re excited enough to do every day.
+</p>
+<p>- Walking meetings: • Brain works better • Exercise & sunlight • Shorter, less pleasantries • More dialogue, less monologue • No slides • End easily by walking back
+</p>
+<p>- An emotion is our evolved biology predicting the future impact of a current event. In modern settings, it’s usually exaggerated or wrong.
+</p>
+<p>- most of our suffering comes from avoidance.
+</p>
+<p>- Most of the suffering from a cold shower is the tip-toeing your way in.
+</p>
+<p>- Too much sugar leads to a heavy body, and too many distractions lead to a heavy mind.
+</p>
+<p>- Choiceless Awareness, or Nonjudgmental Awareness. As you’re going about your daily business (hopefully, there’s some nature) and you’re not talking to anybody else, you practice learning to accept the moment you’re in without making judgments.
+</p>
+<p>- 90 percent of thoughts I have are fear-based. The other 10 percent may be desire-based.
+</p>
+<p>- When in bed, meditate. Either you will have a deep meditation or fall asleep. Victory either way.
+</p>
+<p>- Another method I’ve learned is to just sit there and you close your eyes for at least one hour a day. You surrender to whatever happens—don’t make any effort whatsoever. You make no effort for something, and you make no effort against anything. If there are thoughts running through your mind, you let the thoughts run. For your entire life, things have been happening to you. Some good, some bad, most of which you have processed and dissolved, but a few stuck with you. Over time, more and more stuck with you, and they almost became like these barnacles stuck to you. You lost your childhood sense of wonder and of being present and happy. You lost your inner happiness because you built up this personality of unresolved pain, errors, fears, and desires that glommed onto you like a bunch of barnacles. How do you get those barnacles off you? What happens in meditation is you’re sitting there and not resisting your mind. These things will start bubbling up. It’s like a giant inbox of unanswered emails, going back to your childhood. They will come out one by one, and you will be forced to deal with them. You will be forced to resolve them. Resolving them doesn’t take any work—you just observe them. Now you’re an adult with some distance, time, and space from previous events, and you can just resolve them. You can be much more objective about how you view them. Over time, you will resolve a lot of these deep-seated unresolved things you have in your mind. Once they’re resolved, there will come a day when you sit down to meditate, and you’ll hit a mental “inbox zero.” When you open your mental “email” and there are none, that is a pretty amazing feeling. It’s a state of joy and bliss and peace. Once you have it, you don’t want to give it up. If you can get a free hour of bliss every morning just by sitting and closing your eyes, that is worth its weight in gold. It will change your life. I recommend meditating one hour each morning because anything less is not enough time to really get deep into it. I would recommend if you really want to try meditation, try sixty days of one hour a day, first thing in the morning. After about sixty days, you will be tired of listening to your own mind. You will have resolved a lot of issues, or you have heard them enough to see through those fears and issues. Meditation isn’t hard. All you have to do is sit there and do nothing. Just sit down. Close your eyes and say, “I’m just going to give myself a break for an hour. This is my hour off from life. This is the hour I’m not going to do anything. “If thoughts come, thoughts come. I’m not going to fight them. I’m not going to embrace them. I’m not going to think harder about them. I’m not going to reject them. I’m just going to sit here for an hour with my eyes closed, and I’m going to do nothing.” How hard is that? Why can you not do anything for an hour? What’s so hard about giving yourself an hour-long break?
+</p>
+<p>- Make this a ZK note
+</p>
+<p>- I do not want my sense of self to continue to develop and strengthen as I get older. I want it to be weaker and more muted so I can be more in present everyday reality, accept nature and the world for what it is, and appreciate it very much as a child would.
+</p>
+<p>- The advantage of meditation is recognizing just how out of control your mind is.
+</p>
+<p>- Awareness alone calms you down.
+</p>
+<p>- do I really care if I embarrass myself? Who cares? I’m going to die anyway. This is all going to go to zero, and I won’t remember anything, so this is pointless.”
+</p>
+<p>- I’d rather dedicate myself to being completely lost in the conversation and to being 100 percent focused on this
+</p>
+<p>- think of your brain, your consciousness, as a multilayered mechanism. There’s a core-base, kernel-level OS running. Then, there are applications running on top.
+</p>
+<p>- I’m actually going back to my awareness level of OS, which is always calm, always peaceful, and generally happy and content.
+</p>
+<p>- you over time you are more than just your mind. You are more than just your habits. You are more than just your preferences. You’re a level of awareness. You’re a body.
+</p>
+<p>- Modern humans, we don’t live enough in our bodies. We don’t live enough in our awareness. We live too much in this internal monologue in our heads. All of which is just programmed into you by society and by the environment when you were younger.
+</p>
+<p>- Meditation is turning off society and listening to yourself. It only “works” when done for its own sake. Hiking is walking meditation. Journaling is writing meditation. Praying is gratitude meditation. Showering is accidental meditation. Sitting quietly is direct meditation.
+</p>
+<p>- when you’re thirty, what advice would you give your twenty-year-old self? And when you’re forty, what advice would you give your thirty-year-old self?
+</p>
+<p>- I wish I had done all of the same things, but with less emotion and less anger.
+</p>
+<p>- I wouldn’t have the angst and the anger. I would have just walked up to the people and said, “Look, this is what happened. This is what I’m going to do. This is how I’m going to do it. This is what’s fair. This is what’s not.”
+</p>
+<p>- the anger and emotions are a huge, completely unnecessary consequence.
+</p>
+<p>- we’re a collection of thousands of habits constantly running subconsciously. We have a little bit of extra brainpower in our neocortex for solving new problems. You become your habits.
+</p>
+<p>- You become your habits.
+</p>
+<p>- One of the things Krishnamurti talks about is being in an internal state of revolution. You should always be internally ready for a complete change. Whenever we say we’re going to try to do something or try to form a habit, we’re wimping out.
+</p>
+<p>- When you say, “I’m going to do this,” and “I’m going to be that,” you’re really putting it off. You’re giving yourself an out. At least if you’re self-aware, you can think, “‘ I say I want to do this, but I don’t really because if I really wanted to do it, I would just do it.”
+</p>
+<p>- Commit externally to enough people. For example, if you want to quit smoking, all you have to do is go to everybody you know and say, “I quit smoking. I did it. I give you my word.”
+</p>
+<p>- Impatience with actions, patience with results.
+</p>
+<p>- Anything you have to do, just get it done.
+</p>
+<p>- Specifically school stuff now!
+</p>
+<p>- do them as quickly as you can while doing them well with your full attention.
+</p>
+<p>- inspiration is perishable. When you have inspiration, act on it right then and there.
+</p>
+<p>- Make this a zk
+</p>
+<p>- said, “Set up systems, not goals.” Use your judgment to figure out what kinds of environments you can thrive in, and then create an environment around you so you’re statistically likely to succeed.
+</p>
+<p>- the clever brain can choose its upcoming environment.
+</p>
+<p>- If there’s something you want to do later, do it now. There is no “later.”
+</p>
+<p>- This applies to my influencer idea , coding and Notion. Pick one and do it
+</p>
+<p>- Science is, to me, the study of truth. It is the only true discipline because it makes falsifiable predictions.
+</p>
+<p>- Applied science becomes technology, and technology is what separates us from the animals
+</p>
+<p>- mathematics is the language of science and nature.
+</p>
+<p>- the most devotional thing that I could do, to study the laws of the Universe.
+</p>
+<p>- “If you read what everybody else is reading, you’re going to think what everyone else is thinking”?
+</p>
+<p>- I think almost everything that people read these days is designed for social approval.
+</p>
+<p>- The returns in life are being out of the herd.
+</p>
+<p>- Social approval is inside the herd.
+</p>
+<p>- Make this Azk and connect to “learn what is true Peter Thiel note”
+</p>
+<p>- the smartest and the most successful people I know started out as losers.
+</p>
+<p>- If you view yourself as a loser, as someone who was cast out by society and has no role in normal society, then you will do your own thing and you’re much more likely to find a winning path.
+</p>
+<p>- For self-improvement without self-discipline, update your self-image.
+</p>
+<p>- Read everything you can.
+</p>
+<p>- read for its own sake. Develop a love for it.
+</p>
+<p>- the skill of persuasion is important because if you can influence your fellow human beings, you can get a lot done.
+</p>
+<p>- you don’t have to know a lot of math. You just have to know basic statistics, arithmetic, etc. You should know statistics and probability forwards and backwards and inside out.
+</p>
+<p>- Advice to my younger self: “Be exactly who you are.” Holding back means staying in bad relationships and bad jobs for years instead of minutes.
+</p>
+<p>- I don’t measure my effectiveness at all. I don’t believe in self-measurement. I feel like this is a form of self-discipline, self-punishment, and self-conflict.
+</p>
+<p>- If you hurt other people because they have expectations of you, that’s their problem. If they have an agreement with you, it’s your problem.
+</p>
+<p>- Courage is not caring what other people think.
+</p>
+<p>- I’m very famous for being rude at parties, events, dinners, where the moment I figure out it’s a waste of my time, I leave immediately.
+</p>
+<p>- Value your time. It is all you have.
+</p>
+<p>- Spend time doing what you want. And if you can’t, you should be at least earning or learning
+</p>
+<p>- Anger is a way to signal as strongly as you can to the other party you’re capable of violence.
+</p>
+<p>- anger is a loss of control over the situation. Anger is a contract you make with yourself to be in physical and mental and emotional turmoil until reality changes.
+</p>
+<p>- People who live far below their means enjoy a freedom that people busy upgrading their lifestyles can’t fathom.
+</p>
+<p>- Once you’ve truly controlled your own fate, for better or for worse, you’ll never let anyone else tell you what to do.
+</p>
+<p>- the mind should be a servant and a tool, not a master.
+</p>
+<p>- being aware you’re a rat in a race is about as far as most of us are going to get.
+</p>
+<p>- The modern struggle: Lone individuals summoning inhuman willpower, fasting, meditating, and exercising… Up against armies of scientists and statisticians weaponizing abundant food, screens, and medicine into junk food, clickbait news, infinite porn, endless games, and addictive drugs.
+</p>
+<p>- The only chance someone has is using effective systems
+</p>
+<p>- Philosophy
+</p>
+<p>- what is the meaning and purpose of life?
+</p>
+<p>- Answer 1: It’s personal.
+</p>
+<p>- Fundamentally, you have to find it for yourself, so the important part is not the answer, it’s the question.
+</p>
+<p>- Answer 2: There is no meaning to life.
+</p>
+<p>- create your own meaning,
+</p>
+<p>- that we’re headed towards the heat death of the Universe. In that death, there’s no concentrated energy, and everything is at the same energy level. Therefore, we’re all one thing.
+</p>
+<p>- The more complex system you create, whether it’s through computers, civilization, art, mathematics, or creating a family—you actually accelerate the heat death of the Universe. You’re pushing us towards this point where we end up as one thing. [4]
+</p>
+<p>- Honesty is a core, core, core value. By honesty, I mean I want to be able to just be me. I never want to be in an environment or around people where I have to watch what I say. If I disconnect what I’m thinking from what I’m saying, it creates multiple threads in my mind. I’m no longer in the moment—now I have to be future-planning or past-regretting every time I talk to somebody. Anyone around whom I can’t be fully honest, I don’t want to be around.
+</p>
+<p>- Before you can lie to another, you must first lie to yourself.
+</p>
+<p>- I don’t believe in any short-term thinking or dealing.
+</p>
+<p>- Turn into so. I have to get better at this. I need to eliminate all friends/relationships/endeavours that I don’t think will be valuable in 10+ years
+</p>
+<p>- All benefits in life come from compound interest, whether in money, relationships, love, health, activities, or habits. I only want to be around people I know I’m going to be around for the rest of my life.
+</p>
+<p>- Compound interest relationships (Zk)
+</p>
+<p>- I only believe in peer relationships. I don’t believe in hierarchical relationships.
+</p>
+<p>- “Anger is a hot coal you hold in your hand while waiting to throw it at somebody.”
+</p>
+<p>- If your values line up, the little things don’t matter.
+</p>
+<p>- The moment you have a child, it’s this really weird thing, but it answers the meaning-of-life, purpose-of-life, question. All of a sudden, the most important thing in the Universe moves from being in your body into the child’s body. That changes you. Your values inherently become a lot less selfish.
+</p>
+<p>- The older the question, the older the answers.
+</p>
+<p>- Rational Buddhism, to me, means understanding the internal work Buddhism espouses to make yourself happier, better off, more present and in control of your emotions—being a better human being.
+</p>
+<p>- my philosophy falls down to this—on one pole is evolution
+</p>
+<p>- the other is Buddhism, which is the oldest, most time-tested spiritual philosophy regarding the internal state of each of us.
+</p>
+<p>- Everyone starts out innocent. Everyone is corrupted. Wisdom is the discarding of vices and the return to virtue, by way of knowledge.
+</p>
+<p>- wisdom? Understanding the long-term consequences of your actions.
+</p>
+<p>- There is actually nothing but this moment.
+</p>
+<p>- No one has ever gone back in time, and no one has ever been able to successfully predict the future in any way that matters.
+</p>
+<p>- As far as I’m concerned, my past is dead. It’s gone.
+</p>
+<p>- Inspiration is perishable—act on it immediately.
+</p>
+<p>- Bonus
+</p>
+<p>- The democratization of technology allows anyone to be a creator, entrepreneur, scientist. The future is brighter.
+</p>
+<p>- Naval’s Recommended Reading
+</p>
+<p>- I don’t read for self-improvement. I read out of curiosity and interest. The best book is the one you’ll devour.
+</p>
+<p>- Psychedelics are a bit of a cheat code in self-observation.
+</p>
+<p>- Naval’s Writing
+</p>
+<p>- Happiness = Health + Wealth + Good Relationships Health = Exercise + Diet + Sleep Exercise = High Intensity Resistance Training + Sports + Rest Diet = Natural Foods + Intermittent Fasting + Plants Sleep = No alarms + 8–9 hours + Circadian rhythms Wealth = Income + Wealth * (Return on Investment) Income = Accountability + Leverage + Specific Knowledge Accountability = Personal Branding + Personal Platform + Taking Risk? Leverage = Capital + People + Intellectual Property Specific Knowledge = Knowing how to do something society cannot yet easily train other people to do Return on Investment = “Buy-and-Hold” + Valuation + Margin of Safety
+</p>
+<p>- Be present above all else. Desire is suffering. (Buddha) Anger is a hot coal you hold in your hand while waiting to throw it at someone else. (Buddha) If you can’t see yourself working with someone for life, don’t work with them for a day. Reading (learning) is the ultimate meta-skill and can be traded for anything else. All the real benefits in life come from compound interest. Earn with your mind, not your time. 99 percent of all effort is wasted. Total honesty at all times. It’s almost always possible to be honest and positive. Praise specifically, criticize generally. (Warren Buffett) Truth is that which has predictive power. Watch every thought. (Ask “Why am I having this thought?”) All greatness comes from suffering. Love is given, not received. Enlightenment is the space between your thoughts. (Eckhart Tolle) Mathematics is the language of nature. Every moment has to be complete in and of itself.
+</p>
+<p>- Health, love, and your mission,
+</p>
+<p>- Appreciation
+</p>
+<p>- I’m extremely grateful to Naval for trusting a stranger from the internet to create a book out of his words. This all started with a half-assed tweet, and became something great because of your trust and support. I appreciate your responsiveness, generosity, and trust.
+</p>
+<p>- This is crazy... it shows what can be possible if you take a leap of faith and try to do something big. The author had some clout before this but this book brings hi, into a new category</p>

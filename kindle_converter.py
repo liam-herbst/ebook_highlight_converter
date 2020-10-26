@@ -30,11 +30,11 @@ with open(original_notes, 'r') as original_notes:
 def remove_spaces(original_lines):
     removed_space_lines = []
     for line in original_lines:
-        if line.startswith('\n'):
+        if line.startswith('Highlight('):
             pass
-        elif line.endswith('\n'):
-            remove_line_space = line[:-1]
-            removed_space_lines.append(remove_line_space)
+        elif line.startswith('Note -'):
+            #Switch to enumerate later
+            pass
         else:
             removed_space_lines.append(line)
     return removed_space_lines
