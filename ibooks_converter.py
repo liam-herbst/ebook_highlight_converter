@@ -1,7 +1,7 @@
 # --------------------------------------------------
-# STEP 1: PASTE YOUR NOTES INTO THE 'OLD_NOTES.TXT' FILE
+# STEP 1: PASTE YOUR NOTES INTO THE 'UNFORMATTED_NOTES.TXT' FILE
 # STEP 2: RUN THIS SCRIPT
-# STEP 3: GO TO 'NEW_NOTES.MD AND SAVE YOUR FILE
+# STEP 3: GO TO 'FORMATTED_NOTES.MD AND SAVE YOUR FILE
 # STEP 4: IMPORT YOUR FILE INTO NOTION
 # --------------------------------------------------
 
@@ -12,7 +12,7 @@ from collections import Counter
 import sys
 import os
 
-original_notes = 'notes.txt'
+original_notes = 'unformatted_notes.txt'
 print(original_notes)
 
 with open(original_notes, 'r') as original_notes:
@@ -126,5 +126,5 @@ print(removed_chapter_duplicates)
 
 ### Export to HTML file ###
 
-with open(new_notes.md, 'w') as fn:
+with open('formatted_notes.md', 'w') as fn:
     fn.write('\n'.join(removed_chapter_duplicates))
