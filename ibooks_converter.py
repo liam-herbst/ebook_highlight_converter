@@ -1,15 +1,21 @@
-#See if it's possible to modify the file name to reflect the book
-## E.g. Formatted: Almanack of Naval
-#Ideally I'll be able to automatically make a bulleted list for the notes under each chapter 
-#for the time being I could just add a "- " for each item so I can input that way into notion
+# --------------------------------------------------
+# STEP 1: PASTE YOUR NOTES INTO THE 'OLD_NOTES.TXT' FILE
+# STEP 2: RUN THIS SCRIPT
+# STEP 3: GO TO 'NEW_NOTES.MD AND SAVE YOUR FILE
+# STEP 4: IMPORT YOUR FILE INTO NOTION
+# --------------------------------------------------
 
 ### Import modules and files ###
 
 from datetime import datetime
+from collections import Counter
 import sys
 import os
 
-with open('ex_notes.txt', 'r') as original_notes:
+original_notes = 'notes.txt'
+print(original_notes)
+
+with open(original_notes, 'r') as original_notes:
     original_lines = original_notes.readlines()
 
 # Confirm highlights properly converted to a list
@@ -81,15 +87,20 @@ formatted_page_numbers = format_page_numbers(eliminated_dates)
 # Test
 #print(formatted_page_numbers)
 
-
-# Identify chapter titles (duplicate lines) and convert them into headers (convert highlights and notes into bullets)
-#def format_lines(formatted_page_numbers):
- # Identify which lines are duplicates and switch them to h2
-    #fn.write("<h2>" + line + "</h2>")
-# Delete duplicate lines but leave the first instance of each duplicate
+# Convert chapter titles into headers and highlights/notes into bullets
+def format_lines(formatted_page_numbers):
+    formatted_lines = []
+    for line in formatted_page_numbers:
+        if formatted_page_numbers.count(line) > 1:
+            line = '## ' + " " + line
+            formatted_lines.append(line)
+        else:
+            line = '- ' + line
+            formatted_lines.append(line)
+    return formatted_lines
 
 # Save output
-#formatted_lines = format_lines(formatted_page_numbers)
+formatted_lines = format_lines(formatted_page_numbers)
 
 # Test
 #print(formatted_lines)
@@ -97,7 +108,7 @@ formatted_page_numbers = format_page_numbers(eliminated_dates)
 # Remove duplicate chapter titles
 def remove_chapter_duplicates(formatted_lines):
     remove_ch_dup = []
-    for line in formatted_page_numbers:
+    for line in formatted_lines:
         if line not in remove_ch_dup:
             remove_ch_dup.append(line)
         else:
@@ -105,15 +116,15 @@ def remove_chapter_duplicates(formatted_lines):
     return remove_ch_dup
 
 # Save output
-removed_chapter_duplicates = remove_chapter_duplicates(formatted_page_numbers)
+removed_chapter_duplicates = remove_chapter_duplicates(formatted_lines)
+
+# Add line for users to connect with me
+#removed_chapter_duplicates.append("Thanks for using this script converter. If you have any questions or would like to stay up to date on new things I'm building,you can follow me on twitter @liamherbst29")
 
 # Test
 print(removed_chapter_duplicates)
 
-#Add line that drives people back to my website/twitter/youtube (my CTA)
-
 ### Export to HTML file ###
 
-with open('test.html', 'w') as fn:
-    for line in removed_chapter_duplicates:
-        fn.write(line)
+with open(new_notes.md, 'w') as fn:
+    fn.write('\n'.join(removed_chapter_duplicates))
