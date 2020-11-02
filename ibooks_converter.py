@@ -27,6 +27,7 @@ with open(original_notes, 'r') as original_notes:
 
 ### Format Import ### 
 
+# Delete line break at end of list objects
 def remove_spaces(original_lines):
     removed_space_lines = []
     for line in original_lines:
@@ -70,14 +71,27 @@ eliminated_dates = eliminate_dates(removed_spaces)
 
 ### Formatting Chapter Titles ###
 
-# Delete the page number (denoted by ", p. ") from the end of the chapter title line
-## Ideally, the page number would append to the next highlight but hey... This isn't bad 
+# Delete the page number (denoted by ", p. ") from the end of the chapter title line and append it to the note line
 def format_page_numbers(eliminated_dates):
     formatted_pg_num = []
+    # e is the page # and note variable
+    e = ""
     for line in eliminated_dates:
+        # If page number is in the line (i.e. it's a chapter), delete it from the line and store the page number as e
         if line.find(", p. ") >= 0:
             a = line.find(", p. ")
+            e = line[a:]
+            e = " [" + e[2:] + "]"
             formatted_pg_num.append(line[:a])
+        # If page number is not in the line (i.e. it's a highlight), append it to the line
+        # Change e to e = "Note: " because if there are two or more consecutive lines without ", p. ", the lines after line 1 are notes
+        elif line.find(", p. ") < 0 and e.find("[") >= 0:
+            formatted_pg_num.append(line + e)
+            e = "Note: "
+        # Add "Note: " to the beginning of the note line
+        elif e == "Note: ":
+            formatted_pg_num.append(e + line)
+        # Account for lines that preceed the first chapter highlight instance
         else:
             formatted_pg_num.append(line)
     return formatted_pg_num
@@ -96,7 +110,7 @@ def format_lines(formatted_page_numbers):
             line = '<h2>' + line + '</h2>'
             formatted_lines.append(line)
         else:
-            line = '<p>- ' + line + '</p>'
+            line = '<ul><li>' + line + '</li></ul>'
             formatted_lines.append(line)
     return formatted_lines
 
@@ -127,5 +141,5 @@ print(removed_chapter_duplicates)
 
 ### Export to HTML file ###
 
-with open('formatted_highlights.txt', 'w') as fn:
+with open('formatted_highlights.html', 'w') as fn:
     fn.write('\n'.join(removed_chapter_duplicates))
