@@ -47,8 +47,9 @@ removed_spaces = remove_spaces(original_lines)
 #print(removed_spaces)
 
 ### Eliminate date stamps ###
+### Eliminate date stamps ###
 
-date_format = "%B %d, %Y"
+date_format = '%B %d, %Y'
 month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 #day = list(range(1, 32))
 
@@ -69,61 +70,47 @@ eliminated_dates = eliminate_dates(removed_spaces)
 # Test
 #print(eliminated_dates)
 
-### Formatting Chapter Titles ###
+### Formatting Lines ###
 
 # Delete the page number (denoted by ", p. ") from the end of the chapter title line and append it to the note line
 def format_page_numbers(eliminated_dates):
     formatted_pg_num = []
     # e is the page # and note variable
-    e = ""
+    e = ''
     for line in eliminated_dates:
+        # Account for if the user copies in the ending lines from the original email import
+        if line.find('All Excerpts From') >= 0:
+            e = ""
+            formatted_pg_num.append('<p>' + line + '</p>')
         # If page number is in the line (i.e. it's a chapter), delete it from the line and store the page number as e
-        if line.find(", p. ") >= 0:
-            a = line.find(", p. ")
+        elif line.find(', p. ') >= 0:
+            a = line.find(', p. ')
             e = line[a:]
-            e = " [" + e[2:] + "]"
-            formatted_pg_num.append(line[:a])
+            e = ' [' + e[2:] + ']'
+            formatted_pg_num.append('<h2>' + line[:a] + '</h2>')
         # If page number is not in the line (i.e. it's a highlight), append it to the line
-        # Change e to e = "Note: " because if there are two or more consecutive lines without ", p. ", the lines after line 1 are notes
-        elif line.find(", p. ") < 0 and e.find("[") >= 0:
-            formatted_pg_num.append(line + e)
-            e = "Note: "
+        ## Change e to e = "Note: " because if there are two or more consecutive lines without ", p. ", the lines after line 1 are notes
+        elif line.find(', p. ') < 0 and e.find('[') >= 0:
+            formatted_pg_num.append('<ul><li>' + line + e + '</li></ul>')
+            e = '<b>Note:</b> '
         # Add "Note: " to the beginning of the note line
-        elif e == "Note: ":
-            formatted_pg_num.append(e + line)
+        elif e == '<b>Note:</b> ':
+            formatted_pg_num.append('<ul><li>' + e + line + '</li></ul>')
         # Account for lines that preceed the first chapter highlight instance
         else:
-            formatted_pg_num.append(line)
+            formatted_pg_num.append('<p>' + line + '</p>')
     return formatted_pg_num
 
 # Save output
 formatted_page_numbers = format_page_numbers(eliminated_dates)
 
 # Test
-#print(formatted_page_numbers)
-
-# Convert chapter titles into headers and highlights/notes into bullets
-def format_lines(formatted_page_numbers):
-    formatted_lines = []
-    for line in formatted_page_numbers:
-        if formatted_page_numbers.count(line) > 1:
-            line = '<h2>' + line + '</h2>'
-            formatted_lines.append(line)
-        else:
-            line = '<ul><li>' + line + '</li></ul>'
-            formatted_lines.append(line)
-    return formatted_lines
-
-# Save output
-formatted_lines = format_lines(formatted_page_numbers)
-
-# Test
-#print(formatted_lines)
+print(formatted_page_numbers)
 
 # Remove duplicate chapter titles
-def remove_chapter_duplicates(formatted_lines):
+def remove_chapter_duplicates(formatted_page_numbers):
     remove_ch_dup = []
-    for line in formatted_lines:
+    for line in formatted_page_numbers:
         if line not in remove_ch_dup:
             remove_ch_dup.append(line)
         else:
@@ -131,7 +118,7 @@ def remove_chapter_duplicates(formatted_lines):
     return remove_ch_dup
 
 # Save output
-removed_chapter_duplicates = remove_chapter_duplicates(formatted_lines)
+removed_chapter_duplicates = remove_chapter_duplicates(formatted_page_numbers)
 
 # Add line for users to connect with me
 #removed_chapter_duplicates.append("Thanks for using this script converter. If you have any questions or would like to stay up to date on new things I'm building,you can follow me on twitter @liamherbst29")
