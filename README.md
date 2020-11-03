@@ -10,7 +10,9 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
     - **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export' for Kindle exports and at least to line 'NOTES FROM' for iBook exports)**
 
 **Kindle**
+Part 1:
 ![Screenshot](readme_photos/kindle_copy_p1.png)
+Part 2:
 ![Screenshot](readme_photos/kindle_copy_p2.png)
 
 **iBooks**
