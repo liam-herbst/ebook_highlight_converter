@@ -29,7 +29,7 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
 1. If you're new to Github, you can follow [this tutorial](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to learn how to download this folder to your system. 
 2. You'll also need to have a text editor installed for simplicity. I recomommend installing [Virtual Studio Code](https://code.visualstudio.com/download) and installing the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for running the file.
 ### 2. Copy, Paste & Save Your Notes
-1. Open your email export and hit 'command + a' ('control + a' for PC users) to select your entire notes. **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export').**
+1. Open your email export and hit 'command + a' ('control + a' for PC users) to select your entire notes. **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export' for Kindle exports and at least to line 'NOTES FROM' for iBook exports).**
 ![Screenshot](readme_photos/kindle_copy_p1.png)
 ![Screenshot](readme_photos/kindle_copy_p2.png)
 2. Navigate to the 'paste_highlights_here.txt' file in the folder you download from part 1 and past your notes
