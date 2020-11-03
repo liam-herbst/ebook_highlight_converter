@@ -7,8 +7,11 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
 2. You'll also need to have a text editor installed for simplicity. I recomommend installing [Virtual Studio Code](https://code.visualstudio.com/download) and installing the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for running the file.
 ### 2. Copy, Paste & Save Your Notes
 1. Open your email export and hit 'command + a' ('control + a' for PC users) to select your entire notes. **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export' for Kindle exports and at least to line 'NOTES FROM' for iBook exports).**
+**Kindle**
 ![Screenshot](readme_photos/kindle_copy_p1.png)
 ![Screenshot](readme_photos/kindle_copy_p2.png)
+**iBooks**
+![Screenshot](readme_photos/ibook_copy.png)
 2. Navigate to the 'paste_highlights_here.txt' file in the folder you download from part 1 and past your notes
 ![Screenshot](readme_photos/paste_here.png)
 3. Hit 'command + s' ('control + s' for PC) to save the updated 'paste_highlights_here.txt' document
