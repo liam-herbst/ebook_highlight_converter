@@ -19,7 +19,8 @@ original_notes = 'paste_highlights_here.txt'
 
 with open(original_notes, 'r') as original_notes:
     og_original_lines = original_notes.readlines()
-    original_lines = og_original_lines[3:]
+
+original_lines = og_original_lines[3:]
 
 # Confirm highlights properly converted to a list
 #print(type(original_lines))

@@ -9,25 +9,23 @@
 ### Import modules and files ###
 
 from datetime import datetime
-#from collections import Counter [may need to import later]
-import sys
-import os
 
 original_notes = 'paste_highlights_here.txt'
 #print(original_notes)
 
 with open(original_notes, 'r') as original_notes:
     og_original_lines = original_notes.readlines()
-    def remove_crap(og_original_lines):
-        for line in og_original_lines:
-            if line.startswith('NOTES FROM\n'):
-                nf = og_original_lines.index(line)
-                break
-            else:
-                continue
-        return nf
-    nf = remove_crap(og_original_lines)
-    original_lines = og_original_lines[nf+3:]
+
+def remove_crap(og_original_lines):
+    for line in og_original_lines:
+        if line.startswith('NOTES FROM\n'):
+            nf = og_original_lines.index(line)
+            break
+        else:
+            continue
+    return nf
+nf = remove_crap(og_original_lines)
+original_lines = og_original_lines[nf+3:]
 
 # Confirm highlights properly converted to a list
 #print(type(original_lines))
