@@ -1,8 +1,8 @@
 # --------------------------------------------------
-# STEP 1: PASTE YOUR HIGHLIGHTS INTO THE 'UNFORMATTED_HIGHLIGHTS.TXT' FILE
-# STEP 2: SAVE THE 'UNFORMATTED_HIGHLIGHTS.TXT' FILE
+# STEP 1: PASTE YOUR HIGHLIGHTS INTO THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
+# STEP 2: SAVE THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
 # STEP 3: RUN THIS SCRIPT
-# STEP 4: GO TO 'FORMATTED_HIGHLIGHTS.TXT AND SAVE YOUR FILE
+# STEP 4: GO TO '[YOUR BOOK & YOUR BOOK AUTHOR].HTML AND SAVE YOUR FILE
 # STEP 5: IMPORT YOUR FILE INTO NOTION (CLICK HTML FILE)
 # --------------------------------------------------
 
@@ -14,10 +14,11 @@ import sys
 import os
 
 original_notes = 'paste_highlights_here.txt'
-print(original_notes)
+#print(original_notes)
 
 with open(original_notes, 'r') as original_notes:
-    original_lines = original_notes.readlines()
+    og_original_lines = original_notes.readlines()
+    original_lines = og_original_lines[3:]
 
 # Confirm highlights properly converted to a list
 #print(type(original_lines))
@@ -27,14 +28,15 @@ with open(original_notes, 'r') as original_notes:
 
 ### Format Import ### 
 
+# Delete line break at end of list objects
 def remove_spaces(original_lines):
     removed_space_lines = []
     for line in original_lines:
-        if line.startswith('Highlight('):
+        if line.startswith('\n'):
             pass
-        elif line.startswith('Note -'):
-            #Switch to enumerate later
-            pass
+        elif line.endswith('\n'):
+            remove_line_space = line[:-1]
+            removed_space_lines.append(remove_line_space)
         else:
             removed_space_lines.append(line)
     return removed_space_lines
@@ -43,89 +45,72 @@ def remove_spaces(original_lines):
 removed_spaces = remove_spaces(original_lines)
 
 # Test
-#print(removed_spaces)
+print(removed_spaces)
 
-### Eliminate date stamps ###
-
-date_format = "%B %d, %Y"
-month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-#day = list(range(1, 32))
-
-def eliminate_dates(removed_spaces):
-    removed_date_lines = []
+# Delete the page number (denoted by ", p. ") from the end of the chapter title line and append it to the note line
+## + Convert chapter titles into headers and highlights/notes into bullets
+def format_lines(removed_spaces):
+    formattedlines = []
+    l = -1
+    location = ''
     for line in removed_spaces:
-        # This is not ideal since it removes any line that starts with a month
-        # See if I can program this later to make it specific for each day
-        if any (line.startswith(m) for m in month):
+        # Format first line as header (it's always a section head)
+        if line == removed_spaces[0]:
+            formattedlines.append('<h2>' + line + '</h2>')
+        elif line.startswith('Highlight(') and (line.find(' Location ') - line.find(')')) < 5 and hasattr(' Page ', line) == False:
+            print('shaba shaba')
+        elif line.startswith('Highlight(') and (line.find(' Location ') - line.find(')')) < 10 and hasattr(' Page ', line) == True:
+            print('hubba hubba')
+        # Format chapter headings for headings with Page #s
+        elif line.startswith('Highlight(') and hasattr(' Page ', line) == True:
+            h = line.find(')')
+            p = line[' Page ']
+            l = line.find(' Location ')
+            formattedlines.append('<h2>' + line[h+4:p] + '</h2>')
+        # Format chapter headings (no page #)
+        elif line.startswith('Highlight('):
+            h = line.find(')')
+            l = line.find(' Location ')
+            location = "[Loc. " + line[l+10:] + ']'
+            formattedlines.append('<h2>' + line[h+4:l] + '</h2>')
+        ## Option for if there are no page numbers with the original title lines
+        elif formattedlines[-1].startswith('<h2>') and l >= 0:
+            formattedlines.append('<ul><li>' + line + location + '</li></ul>')
+        # Format highlights
+        elif formattedlines[-1].startswith('<h2>') and l < 0:
+            formattedlines.append('<ul><li>' + line + '</li></ul>')
+        # Format notes
+        elif formattedlines[-1].startswith('<ul><li>') >= 0 or formattedlines[-1].find(line) >= 0:
+            formattedlines.append('<p><b>Note: </b>' + line + '</p>')
+        else:
             pass
-        else:
-            removed_date_lines.append(line)
-    return removed_date_lines
+    return formattedlines
 
 # Save output
-eliminated_dates = eliminate_dates(removed_spaces)
-
-# Test
-#print(eliminated_dates)
-
-### Formatting Chapter Titles ###
-
-# Delete the page number (denoted by ", p. ") from the end of the chapter title line
-## Ideally, the page number would append to the next highlight but hey... This isn't bad 
-def format_page_numbers(eliminated_dates):
-    formatted_pg_num = []
-    for line in eliminated_dates:
-        if line.find(", p. ") >= 0:
-            a = line.find(", p. ")
-            formatted_pg_num.append(line[:a])
-        else:
-            formatted_pg_num.append(line)
-    return formatted_pg_num
-
-# Save output
-formatted_page_numbers = format_page_numbers(eliminated_dates)
-
-# Test
-#print(formatted_page_numbers)
-
-# Convert chapter titles into headers and highlights/notes into bullets
-def format_lines(formatted_page_numbers):
-    formatted_lines = []
-    for line in formatted_page_numbers:
-        if formatted_page_numbers.count(line) > 1:
-            line = '<h2>' + line + '</h2>'
-            formatted_lines.append(line)
-        else:
-            line = '<p>- ' + line + '</p>'
-            formatted_lines.append(line)
-    return formatted_lines
-
-# Save output
-formatted_lines = format_lines(formatted_page_numbers)
+formatted_lines = format_lines(removed_spaces)
 
 # Test
 #print(formatted_lines)
 
-# Remove duplicate chapter titles
-def remove_chapter_duplicates(formatted_lines):
-    remove_ch_dup = []
-    for line in formatted_lines:
-        if line not in remove_ch_dup:
-            remove_ch_dup.append(line)
-        else:
-            pass
-    return remove_ch_dup
-
-# Save output
-removed_chapter_duplicates = remove_chapter_duplicates(formatted_lines)
-
-# Add line for users to connect with me
-#removed_chapter_duplicates.append("Thanks for using this script converter. If you have any questions or would like to stay up to date on new things I'm building,you can follow me on twitter @liamherbst29")
-
-# Test
-print(removed_chapter_duplicates)
 
 ### Export to HTML file ###
 
-with open('formatted_highlights.txt', 'w') as fn:
-    fn.write('\n'.join(removed_chapter_duplicates))
+# Format Title
+unmodified_title = og_original_lines[1]
+title = unmodified_title[:-1]
+
+# Format Author
+unmodified_author = og_original_lines[2]
+author = unmodified_author[:-1]
+
+#Format file for creation and write
+export_file_name = (title + ' by ' + author)
+
+#export_file = "%s.html" % export_file_name
+export_file = export_file_name + '.html'
+
+# Test
+#print(export_file)
+
+with open(export_file, 'w') as fn:
+    fn.write('\n'.join(formatted_lines))
