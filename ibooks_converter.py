@@ -1,9 +1,9 @@
 # --------------------------------------------------
-# STEP 1: PASTE YOUR HIGHLIGHTS INTO THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
+# STEP 1: PASTE YOUR IBOOK HIGHLIGHTS INTO THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
 # STEP 2: SAVE THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
 # STEP 3: RUN THIS SCRIPT
-# STEP 4: GO TO '[YOUR BOOK & YOUR BOOK AUTHOR].HTML AND SAVE YOUR FILE
-# STEP 5: IMPORT YOUR FILE INTO NOTION (CLICK HTML FILE)
+# STEP 4: IMPORT YOUR FILE INTO NOTION (CLICK HTML FILE) BY SELECTING 
+#         '[YOUR BOOK & YOUR BOOK AUTHOR].HTML IN EBOOK_HIGHLIGHT_CONVERTER FOLDER
 # --------------------------------------------------
 
 ### Import modules and files ###
@@ -56,9 +56,9 @@ removed_spaces = remove_spaces(original_lines)
 # Test
 #print(removed_spaces)
 
-### Formatting Chapter Titles ###
+### Format Lines ###
 
-date_format = '%B %d, %Y'
+#date_format = '%B %d, %Y'
 
 # Identify dates
 
@@ -88,18 +88,18 @@ def format_lines(removed_spaces):
             break
         elif line in dates:
             formattedlines.append(line)
-        # Account for chapter heading that don't have page numbers
+        # Format chapter headings
         elif formattedlines[-1] in dates and line not in dates and line.find(', p. ') >= 0:
             p = line.find(', p. ')
             page = line[p+2:]
             formattedlines.append('<h2>' + line[:p] + '</h2>')
-        # Format chapter headings
+        # Account for chapter heading that don't have page numbers
         elif formattedlines[-1] in dates and line not in dates:
             formattedlines.append('<h2>' + line + '</h2>')
-        ## Option for if there are no page numbers with the original title lines
+        # Format highlights
         elif formattedlines[-1].startswith('<h2>') and p >= 0:
             formattedlines.append('<ul><li>' + line + ' [' + page + ']' + '</li></ul>')
-        # Format highlights
+        # Option for books without page numbers
         elif formattedlines[-1].startswith('<h2>') and p < 0:
             formattedlines.append('<ul><li>' + line + '</li></ul>')
         # Format notes
@@ -114,6 +114,8 @@ formatted_lines = format_lines(removed_spaces)
 
 # Test
 #print(formatted_lines)
+
+### Remove lines ###
 
 # Remove dates and chapter duplicates
 def remove_lines(formatted_lines):
