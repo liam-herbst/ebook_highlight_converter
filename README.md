@@ -3,10 +3,10 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
 
 # How to Use:
 ### 1. Clone this Repository (i.e. Folder of files) from Github:
-1. If you're new to Github, you can follow [this tutorial](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to learn how to download this folder to your system. 
-2. You'll also need to have a text editor installed for simplicity. I recomommend installing [Virtual Studio Code](https://code.visualstudio.com/download) and installing the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for running the file.
+1. If you're new to Github, you can follow [this tutorial](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to learn how to download this folder to your system
+2. You'll also need to have a text editor installed for simplicity. I recomommend installing [Virtual Studio Code](https://code.visualstudio.com/download) and installing the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for running the file
 ### 2. Copy, Paste & Save Your Notes
-1. Open your email export and hit 'command + a' ('control + a' for PC users) to select your entire notes. **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export' for Kindle exports and at least to line 'NOTES FROM' for iBook exports).**
+1. Open your email export and hit 'command + a' ('control + a' for PC users) to **select your entire notes and 'command + c' to copy**. **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export' for Kindle exports and at least to line 'NOTES FROM' for iBook exports)**
 
 **Kindle**
 ![Screenshot](readme_photos/kindle_copy_p1.png)
@@ -14,13 +14,13 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
 
 **iBooks**
 ![Screenshot](readme_photos/ibook_copy_example.png)
-2. Navigate to the 'paste_highlights_here.txt' file in the folder you download from part 1 and past your notes
+2. Navigate to the 'paste_highlights_here.txt' file in the folder you download from part 1 and **paste ('command + v') your notes**
 ![Screenshot](readme_photos/paste_here.png)
 3. Hit 'command + s' ('control + s' for PC) to save the updated 'paste_highlights_here.txt' document
 ### 3. Run the Code & Open Your Newly Formatted Notes
-1. Navigate to the 'run_program.py' file and click the green triangle/arrow in the upper right-hand corner. Your highlights will convert to a nicely formatted HTML file.
+1. Navigate to the 'run_program.py' file and **run the file** (for Virtual Studio Code, you click the green triangle/arrow in the upper right-hand corner). Your highlights will convert to a nicely formatted HTML file
 ![Screenshot](readme_photos/kindle_run.png)
-2. Navigate to the original download folder and click the file to open
+2. Navigate to the original download folder and **click the file to open**
 ![Screenshot](readme_photos/kindle_click_formatted_file.png)
 3. View your mint hightlight export
 ![Screenshot](readme_photos/kindle_exported_file.png)
