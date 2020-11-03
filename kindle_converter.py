@@ -1,9 +1,10 @@
 # --------------------------------------------------
-# STEP 1: PASTE YOUR HIGHLIGHTS INTO THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
+# STEP 1: PASTE YOUR KINDLE HIGHLIGHTS INTO THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
 # STEP 2: SAVE THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
 # STEP 3: RUN THIS SCRIPT
 # STEP 4: GO TO '[YOUR BOOK & YOUR BOOK AUTHOR].HTML AND SAVE YOUR FILE
 # STEP 5: IMPORT YOUR FILE INTO NOTION (CLICK HTML FILE)
+# P.S. THE # IN [ ] AT THE END OF THE LINE IS THE HIGHLIGHT/NOTE LOCACTION
 # --------------------------------------------------
 
 ### Import modules and files ###
@@ -45,53 +46,116 @@ def remove_spaces(original_lines):
 removed_spaces = remove_spaces(original_lines)
 
 # Test
-print(removed_spaces)
+#print(removed_spaces)
+
+### Format Lines ###
 
 # Delete the page number (denoted by ", p. ") from the end of the chapter title line and append it to the note line
 ## + Convert chapter titles into headers and highlights/notes into bullets
 def format_lines(removed_spaces):
     formattedlines = []
     l = -1
+    p = -1
     location = ''
+    count = -1
     for line in removed_spaces:
-        # Format first line as header (it's always a section head)
+        count += 1
         if line == removed_spaces[0]:
             formattedlines.append('<h2>' + line + '</h2>')
-        elif line.startswith('Highlight(') and (line.find(' Location ') - line.find(')')) < 5 and hasattr(' Page ', line) == False:
-            print('shaba shaba')
-        elif line.startswith('Highlight(') and (line.find(' Location ') - line.find(')')) < 10 and hasattr(' Page ', line) == True:
-            print('hubba hubba')
+        # Add line to maintain order -- delete in the remove lines section (for lines not including page #s) (<h3> added for consistency)
+        elif line.startswith('Highlight(') and (line.find(' Location ') - line.find(')')) < 5:
+            l = line.find(' Location ')
+            location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line + '***Delete000Later***')
+        # Add line to maintain order —- delete in the remove lines section (for lines including page #s)
+        elif line.startswith('Highlight(') and (line.find(' Location ') - line.find(')')) < 15 and ' Page ' in line:
+            #l = line.find(' Location ')
+            p = line.find(' Page ')
+            #location = " [" + line[l+10:] + ']'
+            page = ' [p. ' + line[p+6:' '] ########## add in to make it stop at a space ' ']
+            formattedlines.append('<h3>' + line + '***Delete000Later***')
         # Format chapter headings for headings with Page #s
-        elif line.startswith('Highlight(') and hasattr(' Page ', line) == True:
+        elif line.startswith('Highlight(') and ' Page ' in line:
             h = line.find(')')
-            p = line[' Page ']
-            l = line.find(' Location ')
-            formattedlines.append('<h2>' + line[h+4:p] + '</h2>')
+            p = line.find(' Page ')
+            page = ' [p. ' + line[p+6]
+            #l = line.find(' Location ')
+            #location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line[h+4:p-2] + '</h3>')
         # Format chapter headings (no page #)
-        elif line.startswith('Highlight('):
+        elif line.startswith('Highlight(') and ' Location ' in line:
             h = line.find(')')
             l = line.find(' Location ')
-            location = "[Loc. " + line[l+10:] + ']'
-            formattedlines.append('<h2>' + line[h+4:l] + '</h2>')
-        ## Option for if there are no page numbers with the original title lines
-        elif formattedlines[-1].startswith('<h2>') and l >= 0:
-            formattedlines.append('<ul><li>' + line + location + '</li></ul>')
-        # Format highlights
-        elif formattedlines[-1].startswith('<h2>') and l < 0:
-            formattedlines.append('<ul><li>' + line + '</li></ul>')
+            location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line[h+4:l] + '</h3>')
+        # Format note headings
+        elif line.startswith('Note - ') and ' Page ' in line:
+            p = line.find(' Page ')
+            page = ' [p. ' + line[p+6]
+            #l = line.find(' Location ')
+            #location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line[7:p-2] + '</h3>')
+        # Format note headings (without pages)
+        elif line.startswith('Note - ') and ' Location ' in line:
+            l = line.find(' Location ')
+            location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line[7:l] + '</h3>')
         # Format notes
-        elif formattedlines[-1].startswith('<ul><li>') >= 0 or formattedlines[-1].find(line) >= 0:
-            formattedlines.append('<p><b>Note: </b>' + line + '</p>')
-        else:
-            pass
+        elif removed_spaces[count-1].startswith('Note - ') and ' Page ' in removed_spaces[count-1]:
+            formattedlines.append('<p><b>Note: </b>' + line + page + '</p>')
+        elif removed_spaces[count-1].startswith('Note - ') and ' Location ' in removed_spaces[count-1]:
+            formattedlines.append('<p><b>Note: </b>' + line + location + '</p>')
+        # Format bookmarks
+        elif line.startswith('Bookmark - ') and ' Page ' in line:
+            p = line.find(' Page ')
+            page = ' [p. ' + line[p+6]
+            b_page = 'Page ' + line[p+6]
+            #l = line.find(' Location ')
+            #location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line[11:p-2] + '</h3>')
+            formattedlines.append('<b>Bookmark:' + b_page + '</b>')
+        elif line.startswith('Bookmark - ') and ' Location ' in line:
+            l = line.find(' Location ')
+            location = " [" + line[l+10:] + ']'
+            formattedlines.append('<h3>' + line[11:l] + '</h3>')
+            formattedlines.append('<b>Bookmark:' + location + '</b>')
+        # Format highlights with pages
+        elif formattedlines[-1].startswith('<h3>') and p >= 0:
+            formattedlines.append('<ul><li>' + line + page + '</li></ul>')
+        # Format highlights without pages
+        elif formattedlines[-1].startswith('<h3>') and l >= 0:
+            formattedlines.append('<ul><li>' + line + location + '</li></ul>')
+        else: # line starts with h2 or ul
+            formattedlines.append('<h2>' + line + '</h2>')
     return formattedlines
-
 # Save output
 formatted_lines = format_lines(removed_spaces)
 
 # Test
 #print(formatted_lines)
 
+### Remove lines ###
+
+# Remove chapter duplicates
+def remove_lines(formatted_lines):
+    remove_l = []
+    for line in formatted_lines:
+        if line.endswith('***Delete000Later***'):
+            pass
+        elif line not in remove_l:
+            remove_l.append(line)
+        else:
+            pass
+    return remove_l
+
+# Save output
+removed_lines = remove_lines(formatted_lines)
+
+# Add line for users to connect with me
+#removed_chapter_duplicates.append("Thanks for using this script converter. If you have any questions or would like to stay up to date on new things I'm building,you can follow me on twitter @liamherbst29")
+
+# Test
+#print(removed_lines)
 
 ### Export to HTML file ###
 
@@ -113,4 +177,4 @@ export_file = export_file_name + '.html'
 #print(export_file)
 
 with open(export_file, 'w') as fn:
-    fn.write('\n'.join(formatted_lines))
+    fn.write('\n'.join(removed_lines))
