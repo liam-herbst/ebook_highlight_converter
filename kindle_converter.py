@@ -13,7 +13,7 @@ from datetime import datetime
 import sys
 import os
 
-original_notes = 'unformatted_highlights.txt'
+original_notes = 'paste_highlights_here.txt'
 print(original_notes)
 
 with open(original_notes, 'r') as original_notes:

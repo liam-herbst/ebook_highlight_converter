@@ -1,6 +1,6 @@
 # --------------------------------------------------
-# STEP 1: PASTE YOUR HIGHLIGHTS INTO THE 'UNFORMATTED_HIGHLIGHTS.TXT' FILE
-# STEP 2: SAVE THE 'UNFORMATTED_HIGHLIGHTS.TXT' FILE
+# STEP 1: PASTE YOUR HIGHLIGHTS INTO THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
+# STEP 2: SAVE THE 'PASTE_HIGHLIGHTS_HERE.TXT' FILE
 # STEP 3: RUN THIS SCRIPT
 # STEP 4: GO TO '[YOUR BOOK & YOUR BOOK AUTHOR].HTML AND SAVE YOUR FILE
 # STEP 5: IMPORT YOUR FILE INTO NOTION (CLICK HTML FILE)
@@ -13,7 +13,7 @@ from datetime import datetime
 import sys
 import os
 
-original_notes = 'unformatted_highlights.txt'
+original_notes = 'paste_highlights_here.txt'
 #print(original_notes)
 
 with open(original_notes, 'r') as original_notes:
@@ -56,13 +56,26 @@ removed_spaces = remove_spaces(original_lines)
 # Test
 #print(removed_spaces)
 
-### Eliminate date stamps ###
+### Formatting Chapter Titles ###
 
 date_format = '%B %d, %Y'
-month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-#day = list(range(1, 32))
 
-### Formatting Chapter Titles ###
+# Identify dates
+
+def identify_dates(removed_spaces):
+    date_list = []
+    for item in removed_spaces:
+        try:
+            datetime.strptime(item, '%B %d, %Y')
+            date_list.append(item)
+        except ValueError:
+            continue
+    return date_list
+
+dates = identify_dates(removed_spaces)
+
+# Test
+#print(dates)
 
 # Delete the page number (denoted by ", p. ") from the end of the chapter title line and append it to the note line
 ## + Convert chapter titles into headers and highlights/notes into bullets
@@ -71,23 +84,25 @@ def format_lines(removed_spaces):
     p = -1
     page = ''
     for line in removed_spaces:
-        if line.startswith('All Excerpts From'):
+        if line == 'All Excerpts From':
             break
-        elif any (line.startswith(m) for m in month):
+        elif line in dates:
             formattedlines.append(line)
         # Account for chapter heading that don't have page numbers
-        elif any (formattedlines[-1].startswith(m) for m in month) and not any (line.startswith(m) for m in month) and line.find(', p. ') >= 0:
+        elif formattedlines[-1] in dates and line not in dates and line.find(', p. ') >= 0:
             p = line.find(', p. ')
             page = line[p+2:]
             formattedlines.append('<h2>' + line[:p] + '</h2>')
         # Format chapter headings
-        elif any (formattedlines[-1].startswith(m) for m in month) and not any (line.startswith(m) for m in month):
+        elif formattedlines[-1] in dates and line not in dates:
             formattedlines.append('<h2>' + line + '</h2>')
+        ## Option for if there are no page numbers with the original title lines
         elif formattedlines[-1].startswith('<h2>') and p >= 0:
             formattedlines.append('<ul><li>' + line + ' [' + page + ']' + '</li></ul>')
-        # Option for if there are no page numbers with the original title lines
+        # Format highlights
         elif formattedlines[-1].startswith('<h2>') and p < 0:
             formattedlines.append('<ul><li>' + line + '</li></ul>')
+        # Format notes
         elif formattedlines[-1].startswith('<ul><li>') >= 0 or formattedlines[-1].find(line) >= 0:
             formattedlines.append('<p><b>Note: </b>' + line + '</p>')
         else:
@@ -104,7 +119,7 @@ formatted_lines = format_lines(removed_spaces)
 def remove_lines(formatted_lines):
     remove_l = []
     for line in formatted_lines:
-        if any (line.startswith(m) for m in month):
+        if any (line.startswith(m) for m in dates):
             pass
         elif line not in remove_l:
             remove_l.append(line)
