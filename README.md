@@ -1,4 +1,4 @@
-# ebook_highlight_converter
+# Ebook Highlight Converter
 The Ebook converter is a simple program for converting ugly iBooks and Kindle highlights into a pretty HTML file. The file can be viewed on the web or in a note taking application such as Notion.
 
 # How to Use:
