@@ -9,10 +9,9 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
 1. Open your email export and hit 'command + a' ('control + a' for PC users) to **select your entire notes and 'command + c' to copy**
     - **If you opt not to use 'command + a' and select lines manually, make sure you select all lines (including the first line, 'Notebook Export' for Kindle exports and at least to line 'NOTES FROM' for iBook exports)**
 
-**Kindle**
-Part 1:
+**Kindle** Part 1:
 ![Screenshot](readme_photos/kindle_copy_p1.png)
-Part 2:
+Kindle Part 2:
 ![Screenshot](readme_photos/kindle_copy_p2.png)
 
 **iBooks**
