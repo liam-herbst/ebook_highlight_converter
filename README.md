@@ -16,7 +16,7 @@ The Ebook converter is a simple program for converting ugly iBooks and Kindle hi
 ![Screenshot](readme_photos/ibook_copy_example.png)
 2. Navigate to the 'paste_highlights_here.txt' file in the folder you download from part 1 and **paste ('command + v') your notes**
 ![Screenshot](readme_photos/paste_here.png)
-3. Hit 'command + s' ('control + s' for PC) to save the updated 'paste_highlights_here.txt' document
+3. **Hit 'command + s' to save** the updated 'paste_highlights_here.txt' document
 ### 3. Run the Code & Open Your Newly Formatted Notes
 1. Navigate to the 'run_program.py' file and **run the file** (for Virtual Studio Code, you click the green triangle/arrow in the upper right-hand corner). Your highlights will convert to a nicely formatted HTML file
 ![Screenshot](readme_photos/kindle_run.png)
